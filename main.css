@@ -376,6 +376,10 @@ blockquote span{
     padding: 25px;
     background: #f7f7f7;
 }
+
+.blog-content p{
+    color: black;
+}
 .blog span{
     display: block;
 }
