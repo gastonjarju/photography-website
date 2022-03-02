@@ -116,17 +116,17 @@
                 </div>
 
                 <div class = "contact-bottom">
-                    <form class = "form" action="#">
+                    <form class = "form" action="https://formsubmit.co/gastonjarju1997@gmail.com" method="POST">
                       <h3 style="color:black">CONTACT</h3>
                       <p style="color:black">For all pricing and booking inquiries ,
                         please fill out the form below. Please include as much relevant
                         information as possible, for example, the location of the project,
                         amount of images needed, intended usage of the images, and timeframe
                         for project completion. I look forward to hearing from you.</p>
-                        <input type = "text" name="name" placeholder="Your Name" >
-                        <input  type = "text" name="email" placeholder="Your Email" >
-                        <input  type = "text" name="subject" placeholder="Subject" >
-                        <textarea rows = "9" name="message" placeholder="Message"></textarea>
+                        <input type = "text" name="name" placeholder="Your Name" required>
+                        <input  type = "email" name="email" placeholder="Your Email" required>
+                        <input  type = "text" name="subject" placeholder="Subject" required>
+                        <textarea rows = "9" name="message" placeholder="Message"required></textarea>
                         <div class="button-area">
                         <button  type = "submit" class = "btn">Send Message</button>
                       </div>
@@ -160,12 +160,13 @@
                 <div>
                     <h3>Free Subscription!</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, facere eius! Ipsam laborum modi, cumque dolor incidunt animi nam magni.</p>
-
+                    <form action="https://formsubmit.co/gastonjarju1997@gmail.com" method="POST">
                     <div class = "subs">
                         <i class = "fas fa-envelope"></i>
-                        <input type = "email" id = "email" placeholder="Email Address">
+                        <input type = "email" id= "email" name="email" placeholder="Email Address">
                         <button type = "submit">SUBSCRIBE</button>
                     </div>
+                  </form>
                 </div>
             </div>
             <p>Gaston Jarju @ 2022</p>
