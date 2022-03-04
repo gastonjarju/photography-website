@@ -70,6 +70,30 @@ h1, h2, h3, h4, h5, h6, p{
     color: var(--)!important;
 }
 
+.button{
+    background: var(--black);
+    border: none;
+    display:grid;
+    width: 150px;
+    text-align: center;
+    color: var(--black);
+    background: transparent;
+    font-size: 15px;
+    text-transform:uppercase;
+    padding: 12px;
+    border: 2px solid var(--black);
+    border-radius: 25px;
+    margin: auto;
+    transition: var(--transition);
+}
+.button:hover{
+    background: var(--black);
+    color: #FFFFFF;
+}
+.active{
+    color: var(--)!important;
+}
+
 /**************** end of Utility Classes *******************/
 
 /********************** Header styling *********************/
